@@ -1,0 +1,123 @@
+<style>
+
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+	font-family: cambria, sans-serif;
+	font-size: 15px;
+}
+
+h1{
+	height: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #CC6600;
+	font-size: 175%;
+
+}
+
+section {
+	height: 150px;
+	border: 3px solid black;
+	margin-left: 2%;
+	margin-bottom: 30px;	
+	padding-left: 5px;
+}
+
+.s1 {
+	background-color: #FFFF00;
+}
+
+.s2 {
+	background-color: #FF0000;	
+}
+
+.s3 {
+	background-color: #00CC00;
+}
+
+header {
+	height: 30px;
+	width: 90px;
+	float: right;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	font-size: 125%;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 2px;
+}
+
+#t1 {
+	color: black;
+	background-color: #FFCC00
+}
+
+#t2 {
+	color: white;
+	background-color: #CC0000
+}
+
+#t3 {
+	color: white;
+	background-color: #009900
+}
+
+p {
+	margin-top:30px;
+	padding: 5px;
+	overflow: hidden;
+}	
+
+ul{
+	list-style-position: inside;
+}
+
+.row {width: 100%}
+
+@media (min-width: 992px) { 
+	.s1, .s2, .s3{
+		float:left;
+	}
+	.s1 {
+		width: 30.66%;
+	}
+	.s2 {
+		width: 30.66%;
+	}
+	.s3 {
+		width: 30.66%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.s1, .s2, .s3 {
+		float:left;
+	}
+	.s1 {
+		width: 47%;
+	}
+	.s2 {
+		width: 47%;
+	}
+	.s3 {
+		width: 96%;
+	}
+}
+
+@media (max-width: 767px) {
+	.s1, .s2, .s3 {
+		float:left;
+	}
+	.s1 {
+		width: 96%
+	}
+	.s2 {
+		width: 96%
+	}
+	.s3 {
+		width: 96%;
+	}
+}
+</style>
