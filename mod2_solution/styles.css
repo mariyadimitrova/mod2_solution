@@ -20,7 +20,7 @@ h1{
 section {
 	height: 150px;
 	border: 1px solid black;
-	margin-left: 2.1%;
+	margin-left: 2%;
 	margin-bottom: 30px;	
 	padding-left: 5px;
 	overflow: hidden;
@@ -81,13 +81,13 @@ ul{
 		float:left;
 	}
 	.s1 {
-		width: 30.5%;
+		width: 30.66%;
 	}
 	.s2 {
-		width: 30.5%;
+		width: 30.66%;
 	}
 	.s3 {
-		width: 30.5%;
+		width: 30.66%;
 	}
 }
 
@@ -96,13 +96,13 @@ ul{
 		float:left;
 	}
 	.s1 {
-		width: 46.8%;
+		width: 47%;
 	}
 	.s2 {
-		width: 46.8%;
+		width: 47%;
 	}
 	.s3 {
-		width: 95.7%;
+		width: 96%;
 	}
 }
 
@@ -111,13 +111,13 @@ ul{
 		float:left;
 	}
 	.s1 {
-		width: 95.8%
+		width: 96%
 	}
 	.s2 {
-		width: 95.8%
+		width: 96%
 	}
 	.s3 {
-		width: 95.8%;
+		width: 96%;
 	}
 }
 </style>
